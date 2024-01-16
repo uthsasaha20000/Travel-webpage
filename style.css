@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    padding:0px;
+
+
+}
+
+.heading{
+    display:flex;
+   
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:20px;
+
+}
+
+.navbar ul li {
+    list-style: none;
+}
+.ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:506px;
+    height: 43px;
+    padding: 10px 0px;
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-right: 127px;
+}
+.menubar{
+    display:none;
+}
+
+@media screen and (max-width: 600px){
+    .travelheading{
+        padding:30px;
+        width:50vh;
+    
+    }
+    .menubar{
+        display: block;
+        padding-right:23px;
+    }
+    .navbar{
+        display: none;
+    }
+
+}
+.banner{
+    display:flex;
+    background-image: url('Images/Group\ 13\ \(1\)\ \(1\).png');
+    width:1170px;
+    height:500px;
+    flex-shrink: 0;
+    border-radius: 16px; 
+    margin-left:135px;
+    margin-right: 135px;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    
+}
+.banner h1{
+    color: #FFF;
+
+font-family: Mulish;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 24px;
+}
+.banner h5{
+    color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+}
