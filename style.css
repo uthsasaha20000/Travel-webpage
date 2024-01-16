@@ -10,7 +10,9 @@ body{
    
     align-items: center;
     justify-content: space-between;
+    gap:200px;
     margin-bottom:20px;
+    margin-left:135px;
 
 }
 
@@ -34,21 +36,7 @@ margin-right: 127px;
     display:none;
 }
 
-@media screen and (max-width: 600px){
-    .travelheading{
-        padding:30px;
-        width:50vh;
-    
-    }
-    .menubar{
-        display: block;
-        padding-right:23px;
-    }
-    .navbar{
-        display: none;
-    }
 
-}
 .banner{
     display:flex;
     background-image: url('Images/Group\ 13\ \(1\)\ \(1\).png');
@@ -82,4 +70,46 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 26px; 
+margin-bottom: 24px;
+}
+#input-container{
+    display:flex;
+     width: 800px;
+     height:84px;
+     padding: 16px;
+     gap:24px;
+     flex-direction:row;
+    
+     justify-content: center;
+     border-radius:8px;
+     border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+
+
+
+}
+.input{
+width: 34px;
+height: 22px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+padding:16px;
+padding-right:84px;
+}
+#inputx{
+    display:flex;
+    width: 34px;
+height: 22px;
+flex-shrink: 0;
+border-radius: 8px;
+background-color: #FF5400;
+padding:16px;
+padding-right:84px;
+gap:10px;
+}
+@media screen and (max-width: 600px){
+
+
+
 }
